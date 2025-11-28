@@ -30,7 +30,7 @@ public class LoginForm {
         if(username.equals("isu")){
             if(password.equals("1234")){
                 try {
-                    stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/customer_management_controller.fxml"))));
+                    stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/dashboard_management_controller.fxml"))));
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
